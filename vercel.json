@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "rewrites": [
+    { "source": "/blog/", "destination": "https://bonfiregtm-blog.vercel.app/blog" },
+    { "source": "/blog/:path*/", "destination": "https://bonfiregtm-blog.vercel.app/blog/:path*" },
+    { "source": "/blog/:path*", "destination": "https://bonfiregtm-blog.vercel.app/blog/:path*" }
+  ]
+}
